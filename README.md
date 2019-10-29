@@ -1,2 +1,3 @@
-# Local edits at 5:25
+# Store
+a static website!
 
