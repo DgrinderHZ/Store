@@ -14,9 +14,37 @@ header h1{
     line-height: 80px;
     margin: 0;
 }
+
 header h1 a{
     color: #222;
     text-decoration: none;
+}
+
+.navbar{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border-bottom: 1px dotted #ccc;
+}
+
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar a{
+    display: block;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #222;
+    line-height: 20px;
+    transition-duration: .3s;
+}
+.navbar a:hover{
+    background-color: #ddd;
 }
 main {
     max-width: 960px;
